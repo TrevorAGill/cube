@@ -11,12 +11,12 @@ public class Cube {
         return face;
     }
 
-    public int volume(){
+    public int getVolume(){
         int height = getFace().getHeight();
         return height * height * height;
     }
 
-    public int surfaceArea(){
+    public int getSurfaceArea(){
         int height = getFace().getHeight();
         return face.area() * 6;
     }
